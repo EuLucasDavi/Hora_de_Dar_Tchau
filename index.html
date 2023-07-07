@@ -6,10 +6,16 @@
 </head>
 
 <body>
-    <video width="640" height="360" autoplay>
+    <video id="tchau" autoplay>
         <source src=".\Teletubbies - É hora de dar tchau.mp4" type="video/mp4">
         Seu navegador não suporta o elemento de vídeo.
     </video>
+    <script>
+        window.addEventListener('DOMContentLoaded', function () {
+            let tchau = document.getElementById('tchau')
+            meuAudio.play()
+        })
+    </script>
 </body>
 
 </html>
