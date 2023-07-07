@@ -3,19 +3,14 @@
 
 <head>
     <title>Reproduzir Vídeo</title>
+    <link rel="icon" href="https://i.pinimg.com/736x/4f/ef/e2/4fefe20fe6321b26d9de35e5ea033f2a.jpg" type="image/png">
 </head>
 
 <body>
-    <video id="tchau" autoplay>
+    <video id="tchau" width="640" height="360" controls autoplay>
         <source src=".\Teletubbies - É hora de dar tchau.mp4" type="video/mp4">
         Seu navegador não suporta o elemento de vídeo.
     </video>
-    <script>
-        window.addEventListener('DOMContentLoaded', function () {
-            let tchau = document.getElementById('tchau')
-            tchau.play()
-        })
-    </script>
 </body>
 
 </html>
