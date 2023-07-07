@@ -1,0 +1,32 @@
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 260px;
+    text-align: center;
+    color: rgb(236, 61, 143);
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background-image: url(https://pbs.twimg.com/media/EZDTxa3XQAMnfY2.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+#tchau {
+    position: absolute;
+    padding-left: 25px;
+    padding-top: 190px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    float: left;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
