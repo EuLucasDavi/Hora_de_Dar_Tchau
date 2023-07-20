@@ -12,8 +12,9 @@ h1 {
 }
 
 main {
-    padding: 20px;
     margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 800px;
     background-image: url(https://pbs.twimg.com/media/EZDTxa3XQAMnfY2.jpg);
     background-size: 840px;
@@ -21,7 +22,8 @@ main {
 }
 
 #tchau {
-    margin: auto;
+    margin-top: -110px;
+
     padding: 85px;
     width: 650px;
 }
