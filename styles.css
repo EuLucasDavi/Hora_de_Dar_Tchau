@@ -1,32 +1,38 @@
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 260px;
+
     text-align: center;
     color: rgb(236, 61, 143);
     font-size: 60px;
     font-weight: bold;
-    text-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.445);
+    border-color: black;
+    z-index: 1;
+    padding: 30px;
 }
 
-body {
+main {
+    padding: 20px;
+    margin: auto;
+    width: 800px;
     background-image: url(https://pbs.twimg.com/media/EZDTxa3XQAMnfY2.jpg);
-    background-repeat: repeat;
-    background-size: cover;
+    background-size: 840px;
+    border-radius: 20px;
 }
 
 #tchau {
-    position: absolute;
-    padding-left: 25px;
-    padding-top: 190px;
+    margin: auto;
+    padding: 85px;
+    width: 650px;
 }
 
-img {
-    width: 500px;
-    height: auto;
-    float: left;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+#bottom {
     margin: auto;
+    padding: 300px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+body {
+    background-color: rgba(238, 162, 162, 0.836);
 }
